@@ -1,0 +1,2 @@
+fullnameOverride: "postgres"
+nameOverride: "postgres"

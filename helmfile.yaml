@@ -1,0 +1,17 @@
+releases:
+  - name: flask-app
+    namespace: default
+    chart: ./charts/flask-app
+    needs:
+      - postgres
+    values:
+      - ./values/flask-app-values.yaml
+      - ./values/commons.yaml
+      
+  - name: postgres
+    namespace: default
+    chart: ./charts/postgres
+    values:
+      - ./values/postgres-values.yaml
+      - ./values/commons.yaml
+    
