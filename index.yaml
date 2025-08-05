@@ -9,7 +9,7 @@ entries:
     name: flask-app
     type: application
     urls:
-    - https://github.com/kaidewu/flask-ejemplo/package/flask-app-0.1.0.tgz
+    - https://github.com/kaidewu/flask-ejemplo/packages/flask-app-0.1.0.tgz
     version: 0.1.0
   postgres:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: postgres
     type: application
     urls:
-    - https://github.com/kaidewu/flask-ejemplo/package/postgres-0.1.0.tgz
+    - https://github.com/kaidewu/flask-ejemplo/packages/postgres-0.1.0.tgz
     version: 0.1.0
 generated: "2025-08-05T18:56:59.6485221+02:00"
